@@ -1,0 +1,91 @@
+/* line 4, ../scss/style.scss */
+body header nav {
+  position: fixed !important;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+}
+/* line 10, ../scss/style.scss */
+body header nav img {
+  height: 1.6em;
+}
+/* line 15, ../scss/style.scss */
+body header .fadein {
+  position: relative;
+  height: 487px;
+}
+/* line 18, ../scss/style.scss */
+body header .fadein img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* line 27, ../scss/style.scss */
+body main {
+  top: 400px;
+}
+/* line 33, ../scss/style.scss */
+body main div section p {
+  color: darkgray;
+}
+/* line 37, ../scss/style.scss */
+body main div hr {
+  margin-bottom: 1em;
+}
+/* line 40, ../scss/style.scss */
+body main div img {
+  align-items: center;
+  width: 92%;
+}
+
+/* line 49, ../scss/style.scss */
+footer {
+  background-color: #333333;
+}
+/* line 54, ../scss/style.scss */
+footer .container #krone {
+  width: 20%;
+  float: left;
+}
+/* line 59, ../scss/style.scss */
+footer .container #midt {
+  width: 100%;
+}
+/* line 63, ../scss/style.scss */
+footer .container #iso {
+  width: 20%;
+  float: left;
+}
+/* line 67, ../scss/style.scss */
+footer .container p {
+  color: white;
+}
+/* line 70, ../scss/style.scss */
+footer .container span {
+  color: white;
+}
+/* line 73, ../scss/style.scss */
+footer .container h5 {
+  color: white;
+}
+/* line 76, ../scss/style.scss */
+footer .container h6 {
+  font-size: 1.5em;
+  color: white;
+}
+/* line 80, ../scss/style.scss */
+footer .container section {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+/* line 85, ../scss/style.scss */
+footer .container section ul {
+  float: left;
+  color: white;
+}
+/* line 88, ../scss/style.scss */
+footer .container section ul li {
+  text-decoration: none;
+  color: white;
+}
