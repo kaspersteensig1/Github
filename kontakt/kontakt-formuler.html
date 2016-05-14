@@ -89,14 +89,28 @@
 <div class="row">
     
     <section class="col-lg-4 col-md-12">
+     
+     
      <form action="formmail.php" method="POST">
-<label for="navn">Navn</label><input type="text" name="navn"><br>
-<label for="emne">Emne</label><input type="text" name="emne"><br>
-<label for="emailadresse">Din emailadresse</label><input type="text" name="emailadresse"><br>
-<label for="besked">Besked</label><textarea name="besked"></textarea><br>
-<input type="submit" value="Submit">
+ <div class="form-group">
+  
+  <input type="text" class="form-control" id="usr" placeholder="Navn">
+
+  <input id="del1" type="text" class="form-control" id="usr" placeholder="Email adresse">
+
+  <input id="del2" type="password" class="form-control" id="pwd" placeholder="Telefonnummer">
+  
+  <input type="password" class="form-control" id="pwd" placeholder="Emne">
+  
+  <textarea class="form-control" rows="5" id="comment" placeholder="Besked"></textarea>
+</div>
+
+<input type="submit" class="btn btn-success"></input>
+
 </form>
 
+  
+   
     </section>
     
 </div>

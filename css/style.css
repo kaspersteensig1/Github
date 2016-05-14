@@ -88,3 +88,15 @@ footer .container section ul li {
   text-decoration: none;
   color: white;
 }
+
+/* line 106, ../scss/style.scss */
+#del1 {
+  float: left;
+  width: 50%;
+}
+
+/* line 110, ../scss/style.scss */
+#del2 {
+  float: right;
+  width: 50%;
+}

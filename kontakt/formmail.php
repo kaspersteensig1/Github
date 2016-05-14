@@ -7,7 +7,7 @@
 // $modtagere[1] = "adresse@domain.dk"
 // $modtagere[2] = "adresse2@domain.dk"
 // osv.
-$modtagere[0] = "";
+$modtagere[0] = "exempel@exempel";
 //$modtagere[1] = "";
 
 // succes og fejlsider
