@@ -86,7 +86,33 @@
     </header>
     
     <main class="container">
+<div class="row">
+    
+    <section class="col-lg-4 col-md-12">
+        <form method="post" action="Kontakformular.php">
+                
+                Navn: <input type="text" name="name" /><br />
+                E-mail: <input type="text" name="email" /><br />
+                
+                Besked:<textarea name="message" cols="50" rows="15"></textarea>
+                <input type="submit" name="submit" value="kontakt nu" />
+            
+            </form>
+            <?php
+        header('Location: index.php');
 
+$name = $_POST('name');
+$email = $_POST('email');
+$message = "$name har skrevet : ".$_POST('message')." : sendt fra $email";
+
+$to = "steensig@icloud.com";
+$subject = "Kontakt fra siden.";
+mail($to, $subject, $message);
+        ?>
+    </section>
+    
+</div>
+      
     </main>
     
     <footer class="container-fluid">
