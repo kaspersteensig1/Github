@@ -21,7 +21,7 @@ body header .fadein {
 body header .fadein img {
   height: 500px;
   float: left;
-  min-width: 100%;
+  width: 100%;
   position: absolute;
 }
 /* line 42, ../scss/style.scss */
