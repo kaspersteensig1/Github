@@ -127,7 +127,12 @@ footer .container section p {
   width: 50%;
 }
 
-/* line 140, ../scss/style.scss */
+/* line 139, ../scss/style.scss */
+#del3 {
+  margin-top: 1em;
+}
+
+/* line 143, ../scss/style.scss */
 nav ul li:hover > ul {
   display: block;
 }
