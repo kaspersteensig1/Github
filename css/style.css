@@ -141,3 +141,8 @@ textarea {
 nav ul li:hover > ul {
   display: block;
 }
+
+/* line 152, ../scss/style.scss */
+a img {
+  width: 30%;
+}
