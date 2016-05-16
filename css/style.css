@@ -1,15 +1,24 @@
-/* line 4, ../scss/style.scss */
+/* line 2, ../scss/style.scss */
+body hr {
+  border: 1px solid;
+}
+/* line 7, ../scss/style.scss */
+body header img {
+  width: 100%;
+}
+/* line 10, ../scss/style.scss */
 body header nav {
   position: fixed !important;
   z-index: 100;
   top: 0;
   width: 100%;
 }
-/* line 10, ../scss/style.scss */
+/* line 16, ../scss/style.scss */
 body header nav img {
+  width: auto;
   height: 1.6em;
 }
-/* line 17, ../scss/style.scss */
+/* line 24, ../scss/style.scss */
 body header .fadein {
   position: relative;
   width: 100%;
@@ -17,86 +26,108 @@ body header .fadein {
   padding: 0;
   margin: 0;
 }
-/* line 24, ../scss/style.scss */
+/* line 31, ../scss/style.scss */
 body header .fadein img {
   height: 500px;
   float: left;
   width: 100%;
   position: absolute;
 }
-/* line 42, ../scss/style.scss */
+/* line 43, ../scss/style.scss */
+body main {
+  margin-top: 2em;
+}
+/* line 48, ../scss/style.scss */
+body main div .col-lg-12 img {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+/* line 56, ../scss/style.scss */
 body main div section p {
   color: darkgray;
 }
-/* line 46, ../scss/style.scss */
+/* line 60, ../scss/style.scss */
 body main div hr {
   margin-bottom: 1em;
 }
-/* line 49, ../scss/style.scss */
+/* line 63, ../scss/style.scss */
 body main div img {
   align-items: center;
   width: 92%;
 }
 
-/* line 58, ../scss/style.scss */
+/* line 72, ../scss/style.scss */
 footer {
   background-color: #333333;
+  margin-top: 2em;
 }
-/* line 63, ../scss/style.scss */
+/* line 78, ../scss/style.scss */
+footer .container #pris p {
+  margin-left: 20%;
+  font-family: serif;
+  font-size: 0.8em;
+}
+/* line 85, ../scss/style.scss */
 footer .container #krone {
   width: 20%;
   float: left;
 }
-/* line 68, ../scss/style.scss */
+/* line 90, ../scss/style.scss */
 footer .container #midt {
   width: 100%;
 }
-/* line 72, ../scss/style.scss */
+/* line 94, ../scss/style.scss */
 footer .container #iso {
   width: 20%;
   float: left;
 }
-/* line 76, ../scss/style.scss */
+/* line 98, ../scss/style.scss */
 footer .container p {
   color: white;
 }
-/* line 79, ../scss/style.scss */
+/* line 101, ../scss/style.scss */
 footer .container span {
   color: white;
 }
-/* line 82, ../scss/style.scss */
+/* line 104, ../scss/style.scss */
 footer .container h5 {
   color: white;
 }
-/* line 85, ../scss/style.scss */
+/* line 107, ../scss/style.scss */
 footer .container h6 {
   font-size: 1.5em;
   color: white;
 }
-/* line 89, ../scss/style.scss */
+/* line 111, ../scss/style.scss */
 footer .container section {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
-/* line 94, ../scss/style.scss */
-footer .container section ul {
+/* line 116, ../scss/style.scss */
+footer .container section h4 {
   float: left;
   color: white;
 }
-/* line 97, ../scss/style.scss */
-footer .container section ul li {
-  text-decoration: none;
+/* line 122, ../scss/style.scss */
+footer .container section p {
+  padding-left: 15px;
   color: white;
 }
 
-/* line 106, ../scss/style.scss */
+/* line 131, ../scss/style.scss */
 #del1 {
   float: left;
   width: 50%;
 }
 
-/* line 110, ../scss/style.scss */
+/* line 135, ../scss/style.scss */
 #del2 {
   float: right;
   width: 50%;
+}
+
+/* line 140, ../scss/style.scss */
+nav ul li:hover > ul {
+  display: block;
 }
