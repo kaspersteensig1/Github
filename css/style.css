@@ -132,7 +132,12 @@ footer .container section p {
   margin-top: 1em;
 }
 
-/* line 143, ../scss/style.scss */
+/* line 142, ../scss/style.scss */
+input {
+  margin-bottom: 1.5em;
+}
+
+/* line 146, ../scss/style.scss */
 nav ul li:hover > ul {
   display: block;
 }
