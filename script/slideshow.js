@@ -1,6 +1,4 @@
 $(document).ready(function() {
-	
-
 	var myIndex = 0;
 	carousel();
 
@@ -15,19 +13,5 @@ $(document).ready(function() {
 			x[myIndex-1].style.display = "block";  
 		setTimeout(carousel, 6000);    
 	}
-
-
-//// billede fade slideshow i toppen
-//$(function(){
-//    $('.fadein img:gt(0)').hide();
-//    setInterval(function(){
-//      $('.fadein :first-child').fadeOut()
-//         .next('img').fadeIn()
-//         .end().appendTo('.fadein');}, 
-//      3000);
-//});
-
-
-
 });
 
