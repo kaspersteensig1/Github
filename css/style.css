@@ -139,18 +139,32 @@ textarea {
   margin-bottom: 1em;
 }
 
-/* line 147, ../scss/style.scss */
-nav ul li:hover > ul {
-  display: block;
-  background-color: whitesmoke;
-}
-
-/* line 153, ../scss/style.scss */
+/* line 150, ../scss/style.scss */
 a img {
   width: 30%;
 }
 
-/* line 158, ../scss/style.scss */
+/* line 155, ../scss/style.scss */
 navbar {
   opacity: 1;
+}
+
+/* line 158, ../scss/style.scss */
+#myNavbar {
+  background-color: whitesmoke;
+}
+/* line 162, ../scss/style.scss */
+#myNavbar li ul {
+  opacity: 1;
+}
+/* line 165, ../scss/style.scss */
+#myNavbar li ul li {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 174, ../scss/style.scss */
+  nav ul li:hover > ul {
+    display: block;
+  }
 }
