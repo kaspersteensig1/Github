@@ -142,14 +142,15 @@ textarea {
 /* line 147, ../scss/style.scss */
 nav ul li:hover > ul {
   display: block;
+  background-color: whitesmoke;
 }
 
-/* line 152, ../scss/style.scss */
+/* line 153, ../scss/style.scss */
 a img {
   width: 30%;
 }
 
-/* line 157, ../scss/style.scss */
+/* line 158, ../scss/style.scss */
 navbar {
   opacity: 1;
 }
