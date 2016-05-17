@@ -41,9 +41,9 @@ $mail_status = mail($mail_modtagere, $emne, $besked, $emailadresse);
 
 //vælger hvilken side du blir sendt til efter sendt eller ikke sendt mail.
 if ($mail_status) {
-header("Location: " . $succes);
+	header("Location: " . $succes);
 } else {
-header("Location: " . $fejl);
+	header("Location: " . $fejl);
 }
 
 ?>
