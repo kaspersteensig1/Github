@@ -5,19 +5,19 @@
 
 /* line 6, ../scss/style.scss */
 h1, h2, h3, h4, h5, h6, p, b, i {
-  font-family: Raleway;
+  font-family: none;
   color: black;
 }
 
-/* line 11, ../scss/style.scss */
+/* line 12, ../scss/style.scss */
 body hr {
   border: 1px solid;
 }
-/* line 17, ../scss/style.scss */
+/* line 18, ../scss/style.scss */
 body header img {
   width: 100%;
 }
-/* line 20, ../scss/style.scss */
+/* line 21, ../scss/style.scss */
 body header nav {
   position: fixed !important;
   z-index: 100;
@@ -25,14 +25,14 @@ body header nav {
   width: 100%;
   height: 3em;
 }
-/* line 27, ../scss/style.scss */
+/* line 28, ../scss/style.scss */
 body header nav img {
   margin-top: 0em;
   width: auto;
   height: 1.6em;
 }
-/* line 39, ../scss/style.scss */
-body .mySlides {
+/* line 35, ../scss/style.scss */
+body header .mySlides {
   top: 3em;
 }
 /* line 43, ../scss/style.scss */
@@ -172,5 +172,56 @@ navbar {
   /* line 181, ../scss/style.scss */
   nav .container {
     width: 100%;
+  }
+}
+/* line 190, ../scss/style.scss */
+.w3-content {
+  max-width: 980px;
+  margin: auto;
+}
+
+/* line 191, ../scss/style.scss */
+.w3-section {
+  margin-top: 16px!important;
+  margin-bottom: 16px!important;
+}
+
+/* line 192, ../scss/style.scss */
+.w3-animate-fading {
+  -webkit-animation: fading 10s infinite;
+  animation: fading 10s infinite;
+}
+
+@-webkit-keyframes fading {
+  /* line 193, ../scss/style.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 193, ../scss/style.scss */
+  50% {
+    opacity: 1;
+  }
+
+  /* line 193, ../scss/style.scss */
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fading {
+  /* line 194, ../scss/style.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 194, ../scss/style.scss */
+  50% {
+    opacity: 1;
+  }
+
+  /* line 194, ../scss/style.scss */
+  100% {
+    opacity: 0;
   }
 }

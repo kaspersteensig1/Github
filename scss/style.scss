@@ -4,10 +4,11 @@
 }
 
 h1, h2, h3, h4, h5, h6, p, b, i {
-    font-family: Raleway;
+    font-family: none;
     color: black;
 }
 body {
+//    font-family: Raleway;
     hr {
         border: 1px solid;
     }
@@ -31,14 +32,13 @@ body {
             }
         }
     
-     
+     .mySlides {
+        top: 3em;
+    }
         
         
         }
-            
-    .mySlides {
-        top: 3em;
-    }
+    
     
     main {
         
@@ -185,3 +185,11 @@ nav ul li:hover > ul {
         }
     }
 
+
+
+.w3-content{max-width:980px;margin:auto}
+.w3-section{margin-top:16px!important;margin-bottom:16px!important}
+.w3-animate-fading{-webkit-animation:fading 10s infinite;animation:fading 10s infinite}
+@-webkit-keyframes fading {0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+    
