@@ -175,3 +175,13 @@ nav ul li:hover > ul {
 		display: block;
 }
 }
+
+@media screen and (max-width: 991px) {
+    nav {
+        .container {
+            width: 100%;
+        }
+        
+        }
+    }
+

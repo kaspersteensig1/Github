@@ -168,3 +168,9 @@ navbar {
     display: block;
   }
 }
+@media screen and (max-width: 991px) {
+  /* line 181, ../scss/style.scss */
+  nav .container {
+    width: 100%;
+  }
+}
