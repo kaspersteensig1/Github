@@ -1,37 +1,39 @@
-/* line 2, ../scss/style.scss */
+@font-face {
+  font-family: "Raleway";
+  src: url(https://fonts.googleapis.com/css?family=Raleway:400,600&subset=latin,latin-ext);
+}
+
+/* line 6, ../scss/style.scss */
+h1, h2, h3, h4, h5, h6, p, b, i {
+  font-family: Raleway;
+  color: black;
+}
+
+/* line 11, ../scss/style.scss */
 body hr {
   border: 1px solid;
 }
-/* line 7, ../scss/style.scss */
+/* line 17, ../scss/style.scss */
 body header img {
   width: 100%;
 }
-/* line 10, ../scss/style.scss */
+/* line 20, ../scss/style.scss */
 body header nav {
   position: fixed !important;
   z-index: 100;
   top: 0;
   width: 100%;
+  height: 3em;
 }
-/* line 16, ../scss/style.scss */
+/* line 27, ../scss/style.scss */
 body header nav img {
+  margin-top: 0em;
   width: auto;
   height: 1.6em;
 }
-/* line 24, ../scss/style.scss */
-body header .fadein {
-  position: relative;
-  width: 100%;
-  height: 500px;
-  padding: 0;
-  margin: 0;
-}
-/* line 31, ../scss/style.scss */
-body header .fadein img {
-  height: 500px;
-  float: left;
-  width: 100%;
-  position: absolute;
+/* line 39, ../scss/style.scss */
+body .mySlides {
+  top: 3em;
 }
 /* line 43, ../scss/style.scss */
 body main {

@@ -2,11 +2,11 @@
 
 // angiv modtagere af formmailen
 // flere modtagere kan tilføjes som
-// $modtagere[1] = "adresse@domain.dk"
+// $modtagere[1] = "adresse1@domain.dk"
 // $modtagere[2] = "adresse2@domain.dk"
 // osv.
 
-$modtagere[0] = "steensig91@gmail.com";
+$modtagere[0] = "adresse@domain.dk";
 //$modtagere[1] = "";
 //$modtagere[2] = "";
 
