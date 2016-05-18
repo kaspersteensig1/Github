@@ -1,9 +1,10 @@
 @font-face {
-    font-family: "Raleway";
-    src: url(https://fonts.googleapis.com/css?family=Raleway:400,600&subset=latin,latin-ext);
+    font-family: "Droid Sans";
+    src: url(https://fonts.googleapis.com/css?family=Droid+Sans);
+    
 }
 h1, h2, h3, h4, h5, h6, p, b, i {
-    font-family: none;
+    font-family: Droid Sans;
     color: black;
 }
 body {
@@ -47,6 +48,7 @@ body {
                 }
             }
             hr {
+                margin-top: 1em;
                 margin-bottom: 1em;
             }
             img {
@@ -63,7 +65,7 @@ footer {
         #pris {
             p {
                 margin-left: 20%;
-                font-family: serif;
+                font-family: Droid Sans;
                 font-size: 0.8em;
             }
         }        
